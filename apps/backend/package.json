@@ -1,0 +1,45 @@
+{
+  "name": "@itg/lerna-react-graphql-starter-kit-backend",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "apollo": "^0.2.2",
+    "app-root-path": "^2.1.0",
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "express-session": "^1.15.6",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "graphql-tools": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/express": "^4.0.39",
+    "@types/jest": "^22.1.1",
+    "@types/node": "^10.3.5",
+    "babel-jest": "^23.4.0",
+    "jest": "^22.1.4",
+    "nodemon": "^1.17.5",
+    "ts-jest": "^23.0.0",
+    "ts-loader": "^4.4.1",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production tsc",
+    "start": "$(npm bin)/nodemon",
+    "test": "$(npm bin)/jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
